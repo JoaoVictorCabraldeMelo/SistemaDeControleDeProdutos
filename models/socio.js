@@ -9,7 +9,19 @@ const SocioSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  rg: {
+    type: String,
+    required: true,
+  },
   genero: {
+    type: String,
+    required: true,
+  },
+  filiacao: {
+    type: String,
+    required: true,
+  },
+  estado_civil: {
     type: String,
     required: true,
   },
@@ -23,10 +35,34 @@ const SocioSchema = new mongoose.Schema({
     required: true,
   },
   endereco: {
-    type: String,
+    type: Map,
+    rua: {
+      type: String,
+      required: true,
+    },
+    numero: {
+      type: Number,
+      required: true,
+    },
+    cep: {
+      type: String,
+      required: true,
+    },
+    cidade: {
+      type: String,
+      required: true,
+    },
+    estado: {
+      type: String,
+      required: true,
+    },
+    pais: {
+      type: String,
+    },
   },
   cartoes: [
     {
+      type: Map,
       valor: Number,
       bloqueado: Boolean,
       pago: Boolean,
@@ -34,7 +70,7 @@ const SocioSchema = new mongoose.Schema({
         type: String,
         enum: ["normal", "especial"],
       },
-      faturas: [
+      compras: [
         {
           produto: String,
           valor: Number,
@@ -43,6 +79,27 @@ const SocioSchema = new mongoose.Schema({
       ],
     },
   ],
+  naturalidade: {
+    type: String,
+    required: true,
+  },
+  email: {
+    type: String,
+    required: true,
+  },
+  escolaridade: {
+    type: String,
+    required: true,
+  },
+  cargo: {
+    type: String,
+    required: true,
+  },
+  tipo: {
+    type: String,
+    enum: ["dependente", "comun"],
+    required: true,
+  },
 });
 
 const Socio = mongoose.model("Socio", SocioSchema);

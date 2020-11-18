@@ -29,6 +29,7 @@
         "telefone": {
             "type": "array",
             "additionalItems": true,
+            "minItems": 1,
             "uniqueItems": false,
             "items": {
                 "type": "string"
@@ -60,17 +61,27 @@
                     "type": "string"
                 }
             },
-            "additionalProperties": false
+            "additionalProperties": false,
+            "required": [
+                "rua",
+                "numero",
+                "cep",
+                "cidade",
+                "estado",
+                "pais"
+            ]
         },
         "cartoes": {
             "type": "array",
             "additionalItems": true,
+            "minItems": 0,
             "uniqueItems": false,
             "items": {
                 "type": "object",
                 "properties": {
                     "valor": {
-                        "type": "number"
+                        "type": "number",
+                        "minimum": 0
                     },
                     "bloqueado": {
                         "type": "boolean"
@@ -88,6 +99,7 @@
                     "compras": {
                         "type": "array",
                         "additionalItems": true,
+                        "minItems": 0,
                         "uniqueItems": false,
                         "items": {
                             "type": "object",
@@ -103,11 +115,21 @@
                                     "format": "date-time"
                                 }
                             },
-                            "additionalProperties": false
+                            "additionalProperties": false,
+                            "required": [
+                                "produto",
+                                "valor",
+                                "data"
+                            ]
                         }
                     }
                 },
-                "additionalProperties": false
+                "additionalProperties": false,
+                "required": [
+                    "valor",
+                    "tipo",
+                    "compras"
+                ]
             }
         },
         "naturalidade": {
@@ -121,6 +143,31 @@
         },
         "cargo": {
             "type": "string"
+        },
+        "tipo": {
+            "type": "string",
+            "enum": [
+                "dependente",
+                "comun"
+            ]
         }
-    }
+    },
+    "required": [
+        "id",
+        "nome",
+        "cpf",
+        "rg",
+        "genero",
+        "filiacao",
+        "estado_civil",
+        "telefone",
+        "dataNascimento",
+        "endereco",
+        "cartoes",
+        "naturalidade",
+        "email",
+        "escolaridade",
+        "cargo",
+        "tipo"
+    ]
 }

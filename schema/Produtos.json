@@ -17,5 +17,11 @@
         "descricao": {
             "type": "string"
         }
-    }
+    },
+    "required": [
+        "id",
+        "nome",
+        "preco",
+        "descricao"
+    ]
 }
