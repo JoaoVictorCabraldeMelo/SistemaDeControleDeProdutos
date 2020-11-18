@@ -1,0 +1,29 @@
+[
+  {
+    "data": {
+      "nome": "Cabralzinho",
+      "cpf": "123456789",
+      "rg": "1233456789",
+      "email": "cabralzinho@hotmail.com",
+      "genero": "nsei",
+      "filiacao": "nsei",
+      "estado_civil": "procurando uma novinha",
+      "telefone": ["992889230"],
+      "dataNascimento": "12-30-1997",
+      "endereco": {
+        "rua": "ruazinha",
+        "numero": 4,
+        "cep": "7232080",
+        "cidade": "Guara",
+        "estado": "DF",
+        "pais": "Brasil"
+      },
+      "cargo": "Diretor de Organizacao Empresarial (aka) lava a geladeira",
+      "cartoes": [],
+      "naturalidade": "Brasileiro",
+      "escolaridade": "1 dia de biologia",
+      "tipo": "COMUN",
+      "id": 1
+    }
+  }
+]

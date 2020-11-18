@@ -4,7 +4,7 @@
     "title": "Produtos",
     "additionalProperties": false,
     "properties": {
-        "id": {
+        "_id": {
             "type": "string",
             "pattern": "^[a-fA-F0-9]{24}$"
         },
@@ -19,7 +19,6 @@
         }
     },
     "required": [
-        "id",
         "nome",
         "preco",
         "descricao"
