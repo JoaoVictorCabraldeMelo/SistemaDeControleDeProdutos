@@ -1,0 +1,126 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Socios",
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{24}$"
+        },
+        "nome": {
+            "type": "string"
+        },
+        "cpf": {
+            "type": "string"
+        },
+        "rg": {
+            "type": "string"
+        },
+        "genero": {
+            "type": "string"
+        },
+        "filiacao": {
+            "type": "string"
+        },
+        "estado_civil": {
+            "type": "string"
+        },
+        "telefone": {
+            "type": "array",
+            "additionalItems": true,
+            "uniqueItems": false,
+            "items": {
+                "type": "string"
+            }
+        },
+        "dataNascimento": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "endereco": {
+            "type": "object",
+            "properties": {
+                "rua": {
+                    "type": "string"
+                },
+                "numero": {
+                    "type": "number"
+                },
+                "cep": {
+                    "type": "string"
+                },
+                "cidade": {
+                    "type": "string"
+                },
+                "estado": {
+                    "type": "string"
+                },
+                "pais": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "cartoes": {
+            "type": "array",
+            "additionalItems": true,
+            "uniqueItems": false,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "valor": {
+                        "type": "number"
+                    },
+                    "bloqueado": {
+                        "type": "boolean"
+                    },
+                    "pago": {
+                        "type": "boolean"
+                    },
+                    "tipo": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "especial"
+                        ]
+                    },
+                    "compras": {
+                        "type": "array",
+                        "additionalItems": true,
+                        "uniqueItems": false,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "produto": {
+                                    "type": "string"
+                                },
+                                "valor": {
+                                    "type": "number"
+                                },
+                                "data": {
+                                    "type": "string",
+                                    "format": "date-time"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "naturalidade": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "escolaridade": {
+            "type": "string"
+        },
+        "cargo": {
+            "type": "string"
+        }
+    }
+}
