@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Jason Cooling Minerals and Tea Tree Pain Therapy",
+    "descricao": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "preco": 111.6
+  },
+  {
+    "nome": "Acyclovir",
+    "descricao": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "preco": 76.6
+  },
+  {
+    "nome": "Cows Milk",
+    "descricao": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "preco": 125.05
+  },
+  {
+    "nome": "Doxycycline",
+    "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+    "preco": 182.75
+  },
+  {
+    "nome": "PediaCare Childrens Plus Multisymptom Cold",
+    "descricao": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "preco": 114.43
+  },
+  {
+    "nome": "PERCOCET",
+    "descricao": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "preco": 198.19
+  },
+  {
+    "nome": "Isopropyl Rubbing Alcohol",
+    "descricao": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "preco": 150.94
+  },
+  {
+    "nome": "Povidone-Iodine Prep Pad",
+    "descricao": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "preco": 156.98
+  },
+  {
+    "nome": "Bed Wetting",
+    "descricao": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "preco": 24.89
+  },
+  {
+    "nome": "Phenylephrine Hydrochloride",
+    "descricao": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "preco": 64.1
+  },
+  {
+    "nome": "Stratuscare Glycerin Laxative Pediatric",
+    "descricao": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "preco": 90.6
+  },
+  {
+    "nome": "Sulfamethoxazole and Trimethoprim",
+    "descricao": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "preco": 194.42
+  },
+  {
+    "nome": "Diltiazem Hydrochloride",
+    "descricao": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "preco": 22.05
+  },
+  {
+    "nome": "Reguloid",
+    "descricao": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "preco": 161.86
+  },
+  {
+    "nome": "Hand Sanitizer",
+    "descricao": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "preco": 92.09
+  },
+  {
+    "nome": "Oxycodone Hydrochloride",
+    "descricao": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "preco": 144.09
+  },
+  {
+    "nome": "Acetaminophen",
+    "descricao": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "preco": 48.74
+  },
+  {
+    "nome": "OXYGEN",
+    "descricao": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "preco": 170.24
+  },
+  {
+    "nome": "Diazepam",
+    "descricao": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "preco": 76.45
+  },
+  {
+    "nome": "RX200 Foaming Instant Hand Sanitizer",
+    "descricao": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "preco": 73.98
+  }
+]
